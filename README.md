@@ -9,18 +9,14 @@ Install plymouth with your package manager. For additional themes, install some 
 
 ## Installation
 ```
-git clone https://github.com/borapocan/rofi-volume-menu.git
-cd rofi-volume-menu
-chmod +x volume.sh
-./volume.sh
+git clone https://github.com/borapocan/select-plymouth-theme.git
+cd select-plymouth-theme
+chmod +x select_plymouth_theme.sh
+./select_plymouth_theme.sh
 ```
 
 ## Usage
 ```
-Mute - mutes the sound
-Max - makes sound 250
-+10 - adds 10 units to sound
--10 - subtracts 10 units from sound
-Exit - exits from menu
+Select a theme from list and it will set the theme.
 ```
 You can put the script in your $PATH, so you can run it as a command or map a keybinding to it.
